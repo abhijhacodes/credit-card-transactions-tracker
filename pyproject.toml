@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "credit-card-transactions-tracker"
+version = "0.1.0"
+description = "A python script to keep track of all credit card transactions"
+authors = ["Abhishek Jha"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-auth-oauthlib = "^1.2.1"
+google-auth-httplib2 = "^0.2.0"
+google-api-python-client = "^2.151.0"
+pandas = "^2.2.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
